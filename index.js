@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-  res.end('Aplicación funcionando 🎉');
+  res.end('Hola desde bind mount! 🚀');
 });
 
 server.listen(3000, () => {
